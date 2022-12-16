@@ -1,0 +1,11 @@
+
+str=input('Enter string:')
+n=len(str)
+count=0
+for i in range(0,n):
+    if str[i].isdigit()==1:
+        count=count+1
+if count!=0:
+    print(count)
+else:
+    print('there is no digit')
