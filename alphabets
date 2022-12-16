@@ -1,0 +1,6 @@
+str1=input('enter lower case str')
+print(str1.upper())
+str1=input('enter upper case str')
+print(str1.lower())
+str1=input('enter str')
+print(str1.swapcase())
